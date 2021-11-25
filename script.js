@@ -4,7 +4,7 @@ alert("The more times you travel this path from point (a) to point (b), the more
 //array object
 const numPersons = [];
 
-//input people
+//input people object
 const people1 = new people("santiago", 20, "male", 180);
 console.log(people1);
 
@@ -15,6 +15,8 @@ console.log(numPersons)
 //array
 const transport = ["car", "walk", "cycle", "motorcycle"];
 console.log("number of transport are: " + transport.length);
+//----------------------------------------------------------------------------
+
 
 //input
 var numComings = parseInt(prompt("add number of times you want to move to point (b)"));
@@ -31,7 +33,7 @@ average(sumComings , numComings);
 console.log("the distance you travel is " + distance + " meters");
 alert(distance + " meters");
 document.write("the distance you travel is " + distance + " meters");
-
+//---------------------------------------------------------------------------
 
 
 //method
@@ -45,4 +47,4 @@ function people(firstName, age, gender, height){
     this.age = age;
     this.gender = gender;
     this.height = height;
-}
+} 
