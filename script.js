@@ -32,7 +32,7 @@ average(sumComings , numComings);
 //print
 console.log("the distance you travel is " + distance + " meters");
 alert(distance + " meters");
-document.write("the distance you travel is " + distance + " meters");
+document.write("The distance you travel is " + distance + " meters and Merry Christmas Coder");
 //---------------------------------------------------------------------------
 
 
